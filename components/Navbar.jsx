@@ -89,7 +89,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-y-auto"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -144,6 +144,7 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#39FF14]">
                 Let&apos;s Connect
               </p>
+
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
                   href="https://www.linkedin.com/in/peter-ng-ang-a-ab4a70275/"
