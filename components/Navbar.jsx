@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import NavLogo from "../public/logo.png";
+import NavLogo from "../public/ngashlogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -43,8 +43,8 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             alt="/"
-            width="80"
-            height="80"
+            width="120"
+            height="120"
             className="cursor-pointer"
           />
         </Link>
